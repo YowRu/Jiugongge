@@ -66,6 +66,7 @@
   padding: 0;
   list-style-type: none;
 }
-.SameColor li{
-  background-color: rgb(65, 65, 65);
+.SameColor{
+  display: flex;
+  flex-wrap: wrap;
 }
