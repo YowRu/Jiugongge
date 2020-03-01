@@ -70,3 +70,6 @@
   display: flex;
   flex-wrap: wrap;
 }
+.SameColor div{
+  margin: 5px;
+}
