@@ -1,6 +1,6 @@
-import React, { useState } from "react"
-import RadomColor from "./RadomColor"
-import SameColor from "./SameColor"
+import React, { useState } from 'react'
+import RadomColor from './RadomColor'
+import SameColor from './SameColor'
 import './App.css'
 
 function App() {
@@ -17,15 +17,15 @@ function App() {
   }
   
   return (
-    <div id='main'>
-        <div id='title'>
+    <div className='main'>
+        <div className='title'>
             <h1>功能選單</h1>
             <p>
                 <span onClick={radomColor}>點擊區塊變色</span>
                 <span onClick={sameColor}>點擊相同區塊</span>
             </p>
         </div>
-        <div id='contain'>
+        <div className='contain'>
           <SameColor
             isSamePage={isSamePage}
           />
@@ -37,4 +37,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
