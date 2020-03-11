@@ -9,26 +9,26 @@
   justify-content: center;
   align-items: flex-start;
 }
-#main{
+.main{
   width: 100%;
   height: 100vh;
 }
-#title{
+.title{
   width: 100%;
   height: 110px;
   text-align: center;
 }
-#title h1{
+.title h1{
   padding-bottom: 10px;
 }
-#title p{
+.title p{
   width:100%;
   display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
 }
-#title p span{
+.title p span{
   display: inline-block;
   width: 200px;
   font-size: 20px;
@@ -36,40 +36,35 @@
   color: rgb(43, 77, 211);
   cursor: pointer;
 }
-#title p a:hover{
+.title p a:hover{
   color: rgb(14, 116, 120);
   font-weight: 600;
 }
-#contain{
+.contain{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#contain p{
+.contain p{
   color: black;
   font-size: 50px;
   text-align: center;
 }
-.RadomColor,.SameColor{
+.RadomColor, .SameColor{
   width: 90%;
   height: 100%;
-}
-.RadomColor ul, .SameColor ul{
-  margin: 5px;
-  display: flex;
-  justify-content: center;
-  padding: 0;
-}
-.RadomColor li, .SameColor li{
-  margin: 0 5px;
-  padding: 0;
-  list-style-type: none;
-}
-.SameColor{
   display: flex;
   flex-wrap: wrap;
 }
-.SameColor div{
+.RadomColor{
+  width: 480px;
+}
+.RadomColor div, .SameColor div{
   margin: 5px;
+}
+
+.radomDiv{
+  width : 50px;
+  height : 50px;
 }
